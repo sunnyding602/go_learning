@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// I have to write a comment here in order to export the following consts
 const (
 	_  = iota             // 0
 	KB = 1 << (iota * 10) // 1 << (1*10)
